@@ -2,7 +2,7 @@ from datetime import timedelta
 
 from feast import BigQuerySource, Entity, Feature, FeatureView, Field
 from feast.types import Float32, Int64, String
-##tests
+
 trips_source = BigQuerySource(
     table="testDataset.yellow_cab",
     timestamp_field="dropoff_datetime",
